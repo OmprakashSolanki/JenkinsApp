@@ -13,7 +13,7 @@ public class FormController {
 
 	@RequestMapping(value = "/*", method = RequestMethod.GET)
 	public String getResponse() {
-		System.out.println("Form Controller");
+		//System.out.println("Form Controller");
 		return "form";
 	}
 
