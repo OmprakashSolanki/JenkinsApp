@@ -11,10 +11,9 @@ public class FormController {
 		System.out.println("FormController.FormController()");
 	}
 
-	
-	@RequestMapping(value = "/*",method=RequestMethod.GET)
+	@RequestMapping(value = "/*", method = RequestMethod.GET)
 	public String getResponse() {
-
+		System.out.println("Form Controller");
 		return "form";
 	}
 
