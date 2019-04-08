@@ -7,11 +7,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class FormController {
 
-	
-
 	@RequestMapping(value = "/*", method = RequestMethod.GET)
 	public String getResponse() {
-	System.out.println("Form Controller");
+
+		System.out.println("Form Controller");
 		return "form";
 	}
 
