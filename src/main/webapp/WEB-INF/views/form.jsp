@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Welcome to Jenkins Application </h1>
+<h1>Welcome to Jenkins Application Withn Email Notification </h1>
 </body>
 </html>
